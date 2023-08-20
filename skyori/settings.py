@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "webapi.apps.WebapiConfig",
+    'rest_framework',
+    'rest_framework_swagger',
 ]
 
 MIDDLEWARE = [
@@ -76,8 +79,12 @@ WSGI_APPLICATION = 'skyori.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'skyoriDB',  # имя вашей базы данных
+        'USER': 'django-skyori',  # имя пользователя базы данных
+        'PASSWORD': 'skyori',  # пароль для доступа к базе данных
+        'HOST': 'localhost',  # адрес хоста базы данных, например 'localhost'
+        'PORT': '5432',  # порт, например '5432'
     }
 }
 
