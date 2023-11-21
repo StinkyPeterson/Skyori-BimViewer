@@ -15,4 +15,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('user/', views.UserView.as_view(), name='user'),
+    path('ifc/', views.IfcView.as_view(), name = 'ifc'),
 ]

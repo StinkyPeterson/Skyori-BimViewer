@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c09514db-bb57-4207-ac5a-a545f388cba7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Viewer/Viewer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../skyori/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../skyori/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../skyori/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../skyori/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../skyori/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/controllers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/migrations/0002_alter_indicator_indicator_name_alter_user_login_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/templates/swaggerui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webapi/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Y4P0kJMMB2FHRjPo501xzbQmzg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c09514db-bb57-4207-ac5a-a545f388cba7" name="Changes" comment="" />
+      <created>1699781664363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699781664363</updated>
+      <workItem from="1699781668436" duration="422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

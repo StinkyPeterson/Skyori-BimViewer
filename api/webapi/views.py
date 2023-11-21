@@ -1,4 +1,5 @@
 from django.shortcuts import render
+import ifcopenshell
 
 from rest_framework import viewsets
 from rest_framework.views import APIView
@@ -33,3 +34,12 @@ class UserView(APIView):
         else:
             # Отправка сообщения об ошибке, если параметр 'username' не указан
             return Response({'error': 'Missing username parameter'}, status=400)
+        
+class IfcView(APIView):
+    def get(self, request):
+        model = ifcopenshell.open('C:\\Users\\Artem\\Desktop\\skyori\\Skyori-BimViewer\\api\\src\\examples\\ifcwiki.org_images_e_e3_AC20-FZK-Haus.ifc')
+        walls = model.by_type('IfcWall')
+        return Response({
+            'schema': model.schema,
+            'walls': len(walls)
+        })
